@@ -1,0 +1,28 @@
+# Build directories
+build/
+cmake-build-*/
+
+# Executables and object files
+*.o
+*.a
+*.so
+*.out
+systempulse
+test_crash_log_collector
+test_journal_source
+test_kernel_logger
+test_panic_analyzer
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.log
